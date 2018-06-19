@@ -1,4 +1,4 @@
-package controllers
+package api
 
 // revel本体を読み込む
 import (
