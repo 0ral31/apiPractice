@@ -18,7 +18,7 @@ GET     /api/article/:id                        ArticleApi.GetArticle
 POST    /api/article/create                     ArticleApi.PostArticle
 PUT     /api/article/rewrite/:id                ArticleApi.PutArticle
 DELETE  /api/article/delete/:id                 ArticleApi.DeleteArticle
-
+POST     /api/article/search                     ArticleApi.SearchArticle
 # Ignore favicon requests
 GET     /favicon.ico                            404
 
